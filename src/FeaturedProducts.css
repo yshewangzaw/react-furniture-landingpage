@@ -1,0 +1,55 @@
+/* FeaturedProducts.css */
+
+.featured-products-container {
+  background-color: #f7f7f7;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+ h2 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.product-item {
+  width: 300px;
+  margin: 10px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.product-image {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.product-name {
+  font-size: 18px;
+  margin-bottom: 5px;
+  color: #555; /* Add color property */
+  text-transform: uppercase; /* Add text-transform property */
+}
+
+.product-price {
+  font-size: 16px;
+  font-weight: bold;
+  color: hsl(0, 50%, 79%); /* Add color property */
+  margin-top: 5px; /* Add margin-top property */
+}
+
+/* Additional CSS rules as needed */
